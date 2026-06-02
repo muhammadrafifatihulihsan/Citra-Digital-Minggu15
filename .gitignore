@@ -1,2 +1,5 @@
 venv/
 src/config/yolov3.weights
+
+src/models/*
+!src/models/.gitkeep
