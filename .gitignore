@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# YOLO weights / model files
+*.weights
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.h5
+
+# Specific YOLO file (optional)
+src/config/yolov3.weights
